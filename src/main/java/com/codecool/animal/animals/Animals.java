@@ -3,11 +3,11 @@ package com.codecool.animal.animals;
 public abstract class Animals {
 
     private String name;
-    private boolean isFemale;
+    private boolean isMale;
 
     public Animals(String name, boolean isMale) {
         this.name = name;
-        this.isFemale = isMale;
+        this.isMale = isMale;
     }
 
     public String getName() {
@@ -18,12 +18,12 @@ public abstract class Animals {
         this.name = name;
     }
 
-    public boolean isFemale() {
-        return isFemale;
+    public boolean isMale() {
+        return isMale;
     }
 
-    public void setFemale(boolean female) {
-        isFemale = female;
+    public void setMale(boolean male) {
+        isMale = male;
     }
 
     public void feed(){
